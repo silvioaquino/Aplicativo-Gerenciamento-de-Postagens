@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #e1e1e1;
+    background-color: #1e1e1e;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .footer {
+    justify-content: start;
+  }
+
+  .button_salvar {
+    color-scheme: green;
+    margin-right: 3px;
+  }
+
+  .button_cancelar {
+    color-scheme: red;
+  }
